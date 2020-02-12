@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="como.Hibernate.model.Libro" table="libros">
+		<id name="id_libro" type="int" column="id_libro">
+			<generator class="native"></generator>
+		</id>
+		<property name="nombreLibro" type="VARCHAR" column="NameBook"/>
+		<property name="AuthorBook" type="VARCHAR" column="AuthorBook"/>
+		<property name="isbnBook" type="VARCHAR" column="isbnBook"/>
+	</class>
+</hibernate-mapping>
