@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="assets/css/uikit.min.css" />
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/uikit-icons.min.js"></script>
+</head>
+<body>
+
+
+<div class="uk-container uk-margin">
+    <h2 class="uk-text-center uk-padding-small">
+        Update any Book that you want
+    </h2>
+	<form class="uk-grid-small" action="DeleteBooks" method="POST" uk-grid >
+        <div class="uk-width-1-2@s">
+	    	<label class="uk-label" for="txtIdLibro">DELETE BOOK</label>
+	        <input class="uk-input" type="text" id="txtIdLibro" name="txtIdLibro" placeholder="Introduce Id for delete" >
+	    </div>
+	    <div class="uk-width-1-2@s">
+	        <input class="uk-button uk-button-primary" type="submit" value="Update">
+	    </div>
+	</form>
+
+ </div>
+</body>
+</html>
